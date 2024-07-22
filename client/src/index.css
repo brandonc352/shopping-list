@@ -11,3 +11,56 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+#groceries tr.selected {
+    background: #D8D8D8;
+}
+div#groceries table > tbody > tr {
+    background: white;
+}
+
+div#groceries table > tbody > tr:hover > td {background: #F0F0F0;}
+
+
+.food-group {
+    border-radius: 3px;
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+
+.food-group > .MuiGrid-container {
+    border-bottom: 3px solid grey;
+    margin-bottom: 10px;
+}
+div.food-group td {
+    border: none;
+}
+div.food-group > div {
+    box-shadow: none;
+}
+
+div#root .food-group button {
+    background: lightgrey;
+    color: black;
+    border: 0;
+    padding: 7px 9px;
+    border-radius: 25px;
+}
+
+div#root .food-group button:hover {
+    background: darkgrey;
+}
+#groceries > div#selected-items-block {
+    padding-left: 30px;
+}
+
+.food-group > p {
+    font-weight: bold;
+    width: 50%;
+    display: table;
+    float: left;
+    padding: 5px;
+    font-size: 17px;
+}#groceries {
+    margin-top: -50px;
+}
+
